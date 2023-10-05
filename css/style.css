@@ -499,16 +499,16 @@ form textarea {
     width: 100%;
   }
   .body-section {
-    margin: 30%;
+    margin: 35%;
   }
   .about-section {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 25%;
+    margin: 35%;
   }
   .skills-heading {
-    margin-left:60px;
+    margin-left:95px;
     width: 400px;
   }
   .progress-container {
@@ -546,11 +546,11 @@ form textarea {
   .project-portfolio-section {
     display: flex;
     flex-direction: column;
-    margin: 30%;
+    margin: 35%;
   }
   .project-section .project-heading {
     position: relative;
-    margin: 15%;
+    margin: 20%;
     width: 450px;
   }
   
@@ -561,7 +561,7 @@ form textarea {
     height: 100%;
     width: 100%;
     border-radius: 15px;
-    margin: 8%;
+    margin: 18%;
 
   }
   form input {
