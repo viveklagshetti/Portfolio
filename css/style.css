@@ -395,7 +395,7 @@ form textarea {
     padding-left: 10px;
   }
 }
-@media screen and (max-width:374px) and (min-width:200px) {
+/* @media screen and (max-width:374px) and (min-width:200px) {
   .nav-section {
     display: none;
   }
@@ -488,8 +488,8 @@ form textarea {
   .contact-section {
     width: 450px;
   }
-}
-@media screen and (max-width:424px) and (min-width:375px) {
+} */
+@media screen and (max-width:424px) and (min-width:200px) {
   .nav-section {
     display: none;
   }
@@ -505,14 +505,14 @@ form textarea {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 20%;
+    margin: 25%;
   }
   .skills-heading {
     margin-left:60px;
     width: 400px;
   }
   .progress-container {
-    margin: 25%;
+    margin: 35%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -546,7 +546,7 @@ form textarea {
   .project-portfolio-section {
     display: flex;
     flex-direction: column;
-    margin: 25%;
+    margin: 30%;
   }
   .project-section .project-heading {
     position: relative;
@@ -561,7 +561,7 @@ form textarea {
     height: 100%;
     width: 100%;
     border-radius: 15px;
-    margin: 12%;
+    margin: 8%;
 
   }
   form input {
