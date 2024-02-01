@@ -37,7 +37,6 @@ html {
 section {
   min-height: 85vh;
   padding: 14rem;
-
 }
 /* header section design starts */
 
@@ -137,7 +136,7 @@ header {
   justify-content: space-between;
   gap: 10px;
 }
-.social-media-links a i{
+.social-media-links a i {
   color: var(--main-color);
   border: 2px solid var(--main-color);
   padding: 8px;
@@ -297,7 +296,7 @@ header {
   padding-top: 20px;
   overflow: hidden;
 }
-.visuals-heading h1{
+.visuals-heading h1 {
   padding-bottom: 20px;
   text-align: center;
   font-size: 35px;
@@ -344,52 +343,10 @@ header {
   box-shadow: 0px 0px 15px var(--main-color);
 }
 
-
 /* visuals section ends */
 
-
-
-
-/* contact section starts */
-
-/* .contact-container {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--main-color);
-  height: 580px;
-  width: 800px;
-  border-radius: 15px;
-}
-.contact-section-heading h1 {
-  font-size: 35px;
-  color: var(--bg-color);
-  text-align: center;
-  margin-top: 20px;
-}
-form {
-  margin: 20px;
-  text-align: center;
-}
-form input {
-  height: 50px;
-  width: 600px;
-  margin: 10px;
-  border-radius: 10px;
-  font-size: 18px;
-  padding-left: 10px;
-}
-form textarea {
-  border-radius: 10px;
-  width: 600px;
-  font-size: 18px;
-  padding-left: 10px;
-} */
-/* contact section ends */
-
-
-
 /* adding media queries */
-@media screen and (max-width:767px) and (min-width:425px) {
+@media screen and (max-width: 767px) and (min-width: 425px) {
   .nav-section {
     display: none;
   }
@@ -417,7 +374,6 @@ form textarea {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-
   }
   .project-section {
     width: 540px;
@@ -425,158 +381,38 @@ form textarea {
   .project-portfolio-section {
     display: flex;
     flex-direction: column;
-
   }
   .project-heading {
     margin: 15%;
   }
   .visuals {
-    width:560px;
+    width: 560px;
   }
   .visuals-heading {
     margin: 10%;
     width: 450px;
   }
   .visuals-container {
-  width: 550px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-margin: 10%;
- }
- .visuals-blocks {
-  background-color: var(--second-bg-color);
-  border-radius: 8px;
-  width: 400px;
-}
-.visuals-container .visuals-blocks video {
-  height: 250px;
-  width: 350px;
-  border: 1px solid var(--second-bg-color);
-  border-radius: 5px;
-}
-}
- /* 
-  .contact-container {
+    width: 550px;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    background-color: var(--main-color);
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-    margin: 15%;
-
+    margin: 10%;
   }
-  form input {
-    height: 30px;
-    width: 300px;
-    margin: 10px;
-    border-radius: 10px;
-    font-size: 18px;
-    padding-left: 10px;
-  }
-  form textarea {
-    border-radius: 10px;
-    width: 300px;
-    font-size: 18px;
-    padding-left: 10px;
-  }
-} */
-/* @media screen and (max-width:374px) and (min-width:200px) {
-  .nav-section {
-    display: none;
-  }
-  .nav-section-container {
-    display: inline-flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  .body-section {
-    margin: 35%;
-  }
-  .about-section {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20%;
-  }
-  .skills-heading {
-    margin-left: 60px;
+  .visuals-blocks {
+    background-color: var(--second-bg-color);
+    border-radius: 8px;
     width: 400px;
   }
-  .progress-container {
-    margin: 35%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
+  .visuals-container .visuals-blocks video {
+    height: 250px;
+    width: 350px;
+    border: 1px solid var(--second-bg-color);
+    border-radius: 5px;
   }
-  .progress-container .container-a {
-    margin: 25px;
-    width: 100%;
-    border: 1px solid #6200ea5d;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px var(--second-main-color);
-  }
-  .progress-container .container-b {
-    margin: 25px;
-    width: 100%;
-    border: 1px solid #6200ea5d;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px var(--second-main-color);
-  }
-  .progress-container .container-c {
-    margin: 25px;
-    width: 100%;
-    border: 1px solid #6200ea5d;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px var(--second-main-color);
-  }
-  .project-portfolio-section {
-    display: flex;
-    flex-direction: column;
-    margin: 35%;
-  }
-  .project-section .project-heading {
-    position: relative;
-    margin: 15%;
-    width: 450px;
-  }
-  
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--main-color);
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-    margin: 8%;
+}
 
-  }
-  form input {
-    height: 30px;
-    width: 300px;
-    margin: 10px;
-    border-radius: 10px;
-    font-size: 18px;
-    padding-left: 10px;
-  }
-  form textarea {
-    border-radius: 10px;
-    width: 300px;
-    font-size: 18px;
-    padding-left: 10px;
-    margin-left: 10px;
-  }
-  .contact-section {
-    width: 450px;
-  }
-} */
-@media screen and (max-width:424px) and (min-width:200px) {
+@media screen and (max-width: 424px) and (min-width: 200px) {
   .nav-section {
     display: none;
   }
@@ -595,7 +431,7 @@ margin: 10%;
     margin: 35%;
   }
   .skills-heading {
-    margin-left:105px;
+    margin-left: 105px;
     width: 400px;
   }
   .progress-container {
@@ -648,49 +484,21 @@ margin: 10%;
     width: 500px;
   }
   .visuals-container {
-  width: 450px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  margin: 10%;
- }
- .visuals-blocks {
-  background-color: var(--second-bg-color);
-  border-radius: 8px;
-  width: 500px;
-}
-.visuals-container .visuals-blocks video {
-  height: 250px;
-  width: 400px;
-  border: 1px solid var(--second-bg-color);
-  border-radius: 5px;
-}
- /*  .contact-container {
+    width: 450px;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    background-color: var(--main-color);
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-    margin: 15%;
-
+    margin: 10%;
   }
-  form input {
-    height: 30px;
-    width: 300px;
-    margin: 10px;
-    border-radius: 10px;
-    font-size: 18px;
-    padding-left: 10px;
+  .visuals-blocks {
+    background-color: var(--second-bg-color);
+    border-radius: 8px;
+    width: 500px;
   }
-  form textarea {
-    border-radius: 10px;
-    width: 300px;
-    font-size: 18px;
-    padding-left: 10px;
-    margin-left: 10px;
+  .visuals-container .visuals-blocks video {
+    height: 250px;
+    width: 400px;
+    border: 1px solid var(--second-bg-color);
+    border-radius: 5px;
   }
-  .contact-section {
-    width: 450px;
-  } */
 }
